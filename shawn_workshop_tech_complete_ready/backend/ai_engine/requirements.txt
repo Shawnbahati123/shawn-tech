@@ -1,0 +1,5 @@
+flask==2.2.5
+tensorflow==2.12.0
+transformers==4.40.0
+sentence-transformers==2.2.2
+requests==2.31.0

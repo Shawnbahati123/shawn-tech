@@ -1,0 +1,17 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Shawn Workshop Tech API Gateway",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/auth/login": { "post": { "summary": "Login endpoint" }},
+    "/inventory/products": { "get": { "summary": "Get products list" }},
+    "/pos/sale": { "post": { "summary": "Create a POS sale" }},
+    "/repairs/tickets": { "get": { "summary": "Get repair tickets" }},
+    "/finance/reports": { "get": { "summary": "Financial reports" }},
+    "/ai/diagnose": { "post": { "summary": "AI diagnosis" }},
+    "/payments/mpesa": { "post": { "summary": "MPesa STK push" }},
+    "/notifications/send": { "post": { "summary": "Send notification" }}
+  }
+}

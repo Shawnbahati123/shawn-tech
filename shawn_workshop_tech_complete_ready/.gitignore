@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+/node_modules
+/frontend/node_modules
+/dist
+/staticfiles
+/static
+/media
+pgdata/
+.cache/
+.DS_Store
